@@ -32,9 +32,8 @@ C. teknologi:
 1.  HTML
 2.  Tailwind
 3.  PHP
-4.  JavaScript
-    AJAX
-    JSON
+4.  JavaScript:
+    AJAX dan JSON
 5.  MySQL
 6.  Server Laragon: apache
 
