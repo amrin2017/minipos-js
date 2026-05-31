@@ -23,11 +23,12 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
 5. Laporan <br>
    5.1 Laporan Harian Penjualan, berdasarkan tanggal, Print <br>
    5.2 Laporan Bulanan Penjualan: <br>
-   a). Print <br>
-   b). Print PDF <br>
-   c). Export Laporan ke Excel <br>
+   5.2.1. Print <br>
+   5.2.2. Print PDF <br>
+   5.2.3. Export Laporan ke Excel <br>
    5.3 Laporan Barang Terlaris (fast moving) <br>
-6. Logout. Keluar dari Sistem <br>
+6. Grafik Penjualan <br>
+7. Logout. Keluar dari Sistem <br>
 
 C. TEKNOLOGI: <br>
 
