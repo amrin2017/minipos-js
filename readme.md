@@ -14,8 +14,8 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
 3. Dashboard. Menampilkan informasi: Total Barang Terjual, Total Transaksi dan Total Penjualan
 4. Transaksi Penjualan Barang menggunakan JavaScript
    <br>
-   4.1 CRUD <br>
-   4.2 Transasksi Penjualan secara real time <br>
+   41.CRUD <br>
+   42.Transasksi Penjualan secara real time <br>
    4.3 Searching data penjualan <br>
    4.4 Pagination <br>
    4.5 Mencetak/print dan menampilkan Struk per nomor struk<br>
