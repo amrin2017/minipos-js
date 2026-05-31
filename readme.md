@@ -1,12 +1,13 @@
-A. NAMA PROJECT: Minipos-js
-deskripsi:
+A. NAMA PROJECT: Minipos-js <br>
+deskripsi: <br>
 Mini-POS adalah aplikasi penjualan berbasis web (PHP & JavaScript) untuk mengelola stok barang, transaksi, dan laporan secara cepat serta akurat. Fitur utama meliputi login, dashboard, barang, transaksi penjualan, cetak struk, laporan harian, bulanan, dan barang terlaris. Laporan bisa di print dan di export ke Excel. Sistem membantu meningkatkan efisiensi operasional dan mendukung keputusan manajemen.
 
 Selain itu, aplikasi Minipos-js ini juga menerapkan tata kelola transparansi dalam kegiatan penjualan barang, hal ini terlihat dari Struk dimana nama petugas ditampikan pada Struk seusai dengan user yang bertugas saat itu.
 
-B. PENGEMBANGAN FITUR:
+B. PENGEMBANGAN FITUR: <br>
 Aplikasi minipos-js menggunakan code: PHP dan JavaScript, database MySQL dengan
 menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk kerja Aplikasi Minipos-js digunakan JavaScript digunakan sebagai bahasa pemrograman sisi klien, AJAX digunakan untuk komunikasi asynchronous antara client dan server, sedangkan JSON digunakan sebagai format pertukaran data.
+<br>
 
 1. Login. Masuk ke Sistem.
    Untuk menjalan aplikasi ini, diperlukan user baru. silahkan run program: buat_user.php. Secara default nama user: Meta dan password: metamedia
@@ -28,7 +29,7 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
    5.3 Laporan Barang Terlaris (fast moving) <br>
 6. Logout. Keluar dari Sistem <br>
 
-C. TEKNOLOGI:
+C. TEKNOLOGI: <br>
 
 1.  HTML
 2.  Tailwind
@@ -39,7 +40,7 @@ C. TEKNOLOGI:
 6.  MySQL
 7.  Server Laragon: apache
 
-D. CARA INSTALL
+D. CARA INSTALL <br>
 
 1. Install Laragon
 
@@ -59,7 +60,7 @@ secara sederhana:
 
 git clone https://github.com/amrin2017/minipos-js.git
 
-E. SCREENSHOT
+E. SCREENSHOT <br>
 ![/image](/image/login.png)
 ![/image](/image/dashboard.png)
 ![/image](/image/laporan_barang.png)
