@@ -20,7 +20,7 @@ include 'auth.php';
         <div class="w-64 bg-blue-700 min-h-screen text-white">
 
             <div class="p-4 text-2xl font-bold border-b">
-                💰 Mini POS
+                💰 Mini POS <br> Unit Bisnis Meta-U
             </div>
 
             <ul class="p-4 space-y-2">
@@ -151,12 +151,14 @@ $totalOmzet = 0;
                             Tampilkan
                         </button>
 
-                        <!-- <button type="button" onclick="window.print()" class="bg-green-500 text-white px-4 rounded">
-                            Cetak
-                        </button> -->
 
                         <a href="cetak_bulanan.php?bulan=<?= $bulan ?>&tahun=<?= $tahun ?>" target="_blank"
                             class="bg-green-500 text-white px-4 py-2 rounded"> 🖨 Cetak Laporan
+                        </a>
+
+                        <a href="export_bulanan_excel.php?bulan=<?= $bulan ?>&tahun=<?= $tahun ?>"
+                            class="bg-emerald-600 text-white px-4 py-2 rounded">
+                            📊 Export Excel
                         </a>
 
                     </form>

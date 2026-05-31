@@ -8,7 +8,7 @@ include 'auth.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard POS</title>
+    <title>Dashboard Mini-POS</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -20,7 +20,7 @@ include 'auth.php';
         <div class="w-64 bg-blue-700 min-h-screen text-white">
 
             <div class="p-4 text-2xl font-bold border-b">
-                💰 Mini POS
+                💰 Mini POS <br> Unit Bisnis Meta-U
             </div>
 
             <ul class="p-4 space-y-2">

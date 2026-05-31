@@ -2,8 +2,8 @@
 include 'koneksi.php';
 
 $nama     = "Administrator";
-$username = "admin";
-$password = password_hash("admin123", PASSWORD_DEFAULT);
+$username = "Meta";
+$password = password_hash("metamedia", PASSWORD_DEFAULT);
 $level    = "admin";
 
 $sql = "INSERT INTO users(nama,username,password,level_user)
