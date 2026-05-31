@@ -63,5 +63,6 @@ E. SCREENSHOT
 ![/image](/image/struk.png)
 ![/image](/image/laporan_penjualan_harian.png)
 ![/image](/image/laporan_bulanan_penjualan.png)
+![/image](/image/laporan_bulanan_print.png)
 ![/image](/image/laporan_barang_terlaris.png)
 ![/image](/image/laporan_bulanan_excel.png)
