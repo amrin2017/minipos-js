@@ -54,6 +54,12 @@ include 'auth.php';
                         🏆 Barang Terlaris
                     </a>
                 </li>
+                <li>
+                    <a href="barang.php" class="block p-2 rounded hover:bg-blue-500">
+                        Barang 📦
+                    </a>
+                </li>
+
 
 
                 <li>

@@ -1,4 +1,15 @@
 <?php
+
+// dashboard.php
+
+// Universitas Metamedia, Padang
+// Fakultas Teknologi Informasi dan Industri Kreatif
+// Program Studi : Sistem Informasi
+// Matakuliah Pemrogaraman Web
+// Dosen: Ir. Muhammad Amrin Lubis, M.Sc, email: mamrinlubis@metamedia.ac.id
+// Pendaftaran mahasiswa baru: https://pmb.metamedia.ac.id/beranda_pmb
+ 
+
 include 'koneksi.php';
 include 'auth.php';
 ?>
@@ -54,6 +65,12 @@ include 'auth.php';
                         🏆 Barang Terlaris
                     </a>
                 </li>
+                <li>
+                    <a href="barang.php" class="block p-2 rounded hover:bg-blue-500">
+                        Barang 📦
+                    </a>
+                </li>
+
 
 
                 <li>

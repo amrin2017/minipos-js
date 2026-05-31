@@ -20,7 +20,7 @@ include 'auth.php';
         <div class="w-64 bg-blue-700 min-h-screen text-white">
 
             <div class="p-4 text-2xl font-bold border-b">
-                💰 Mini POS
+                💰 Mini POS <br> Unit Bisnis Meta-U
             </div>
 
             <ul class="p-4 space-y-2">
@@ -38,9 +38,29 @@ include 'auth.php';
                 </li>
                 <li>
                     <a href="laporan_harian.php" class="block p-2 rounded hover:bg-blue-500">
-                        Laporan Harian
+                        📅 Laporan Harian
                     </a>
                 </li>
+
+                <li>
+                    <a href="laporan_bulanan.php" class="block p-2 rounded hover:bg-blue-500">
+                        📅 Laporan Bulanan
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="laporan_barang_terlaris.php" class="block p-2 rounded hover:bg-blue-500">
+                        🏆 Barang Terlaris
+                    </a>
+                </li>
+                <li>
+                    <a href="barang.php" class="block p-2 rounded hover:bg-blue-500">
+                        Barang 📦
+                    </a>
+                </li>
+
+
 
                 <li>
                     <a href="logout.php" class="block p-2 rounded bg-red-500 hover:bg-red-600">
