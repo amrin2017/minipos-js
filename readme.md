@@ -55,6 +55,10 @@ D. CARA INSTALL
 6. run
 7. localhost/minipos-js
 
+secara sederhana:
+
+git clone https://github.com/amrin2017/minipos-js.git
+
 E. SCREENSHOT
 ![/image](/image/login.png)
 ![/image](/image/dashboard.png)
