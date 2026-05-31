@@ -10,6 +10,7 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
    untuk menjalan aplikasi ini, diperlukan user baru. silahkan run program: buat_user.php. Secara default nama user: Meta dan password: metamedia
 2. Dashboard. Menampilkan informasi: Total Barang Terjual, Total Transaksi dan Total Penjualan
 3. Transaksi Penjualan Barang menggunakan JavaScript
+   <br>
    3.1 CRUD
    3.2 Transasksi Penjualan secara real time
    3.3 Searching data penjualan
@@ -38,18 +39,20 @@ C. teknologi:
 6.  Server Laragon: apache
 
 D. cara install
-o Laragon
 
-- masuk ke folder wwww - buat folder: faktur - download SourceCode - masuk DBMS --> PHPMyAdmin
-  a. pilih tab SQL
-  b. buat Database: dbbarang dengan cara:
-  b1. copy-paste script SQL dbbarang.sql
-  b2. go / Kirim
+1. Install Laragon
 
-o dari Browser
-o pastikan server: Apache dan MySQL sudah aktif
-o run
-o localhost/faktur
+2. Masuk ke folder wwww dan buat folder baru: minipos-js
+3. Download SourceCode dari gitHub
+   4.Dari DBMS --> PHPMyAdmin
+4. pilih tab SQL
+5. buat Database: db_penjualan dengan cara: copy-paste script SQL db_penjualan.sql
+6. go / Kirim
+
+7. dari Browser
+8. pastikan server Apache dan MySQL sudah aktif
+9. run
+10. localhost/minipos-js
 
 E. screenshot
 ![/image](/image/TampilanDepan.jpg)
