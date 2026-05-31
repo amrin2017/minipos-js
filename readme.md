@@ -10,22 +10,23 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
 
 1. Login
    untuk menjalan aplikasi ini, diperlukan user baru. silahkan run program: buat_user.php. Secara default nama user: Meta dan password: metamedia
-2. Dashboard. Menampilkan informasi: Total Barang Terjual, Total Transaksi dan Total Penjualan
-3. Transaksi Penjualan Barang menggunakan JavaScript
+2. Barang. Pengelolaan data barang meliputi kegiatan: CRUD + Search
+3. Dashboard. Menampilkan informasi: Total Barang Terjual, Total Transaksi dan Total Penjualan
+4. Transaksi Penjualan Barang menggunakan JavaScript
    <br>
-   3.1 CRUD
-   3.2 Transasksi Penjualan secara real time
-   3.3 Searching data penjualan
-   3.4 Pagination
-   3.5 Mencetak/print dan menampilkan Struk per nomor struk
-4. Laporan
-   4.1 Laporan Harian Penjualan, berdasarkan tanggal, Print
-   4.2 Laporan Bulanan Penjualan,
-   a. Print
-   b. Print PDF
-   c. Export Laporan ke Excel
-   4.3 Laporan Barang Terlaris (fast moving)
-5. Logout
+   4.1 CRUD
+   4.2 Transasksi Penjualan secara real time
+   4.3 Searching data penjualan
+   4.4 Pagination
+   4.5 Mencetak/print dan menampilkan Struk per nomor struk
+5. Laporan
+   5.1 Laporan Harian Penjualan, berdasarkan tanggal, Print
+   5.2 Laporan Bulanan Penjualan:
+   a). Print
+   b). Print PDF
+   c). Export Laporan ke Excel
+   5.3 Laporan Barang Terlaris (fast moving)
+6. Logout
 
 bisa menampilkan faktur pembelian berdasarkan nomor faktur dari combo Faktur 4.
 

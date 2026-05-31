@@ -111,13 +111,13 @@ include 'auth.php';
 
                 <div class="mb-4">
 
-                    <button onclick="simpan()" class="bg-blue-500 text-white px-4 py-2 rounded">
+                    <button onclick="simpan()" class="bg-blue-500 text-white px-2 py-2 rounded">
 
                         Simpan
 
                     </button>
 
-                    <button onclick="resetForm()" class="bg-gray-500 text-white px-4 py-2 rounded">
+                    <button onclick="resetForm()" class="bg-gray-500 text-white px-2 py-2 rounded">
 
                         Reset
 
