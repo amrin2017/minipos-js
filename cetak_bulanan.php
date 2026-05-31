@@ -76,9 +76,10 @@ $namaBulan = [
 
     <div class="header">
 
-        <h1>UNIT BISNIS META-U</h1>
 
-        <p>Jl. By Pass No.100 Padang</p>
+        <h1>💰 UNIT BISNIS META</h1>
+
+        <p>Jl. Sudirman No.123, Padang</p>
 
         <p>Telp. (0751) 123456</p>
 

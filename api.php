@@ -75,6 +75,7 @@ if ($action === 'create') {
     $jumlah    = (int)$_POST['jumlah'];
     $usia      = (int)$_POST['usia'];
     $bayar     = $_POST['bayar'];
+    $nama_user = $_SESSION['nama'] ;
 
     // cek stok
     $q = $conn->query("SELECT stock FROM barang WHERE id=$barang_id");
@@ -85,8 +86,8 @@ if ($action === 'create') {
     $conn->query("UPDATE barang SET stock = stock - $jumlah WHERE id=$barang_id");
 
     // insert
-    $conn->query("INSERT INTO penjualan(barang_id,jumlah,usia_pembeli,metode_bayar)
-                  VALUES($barang_id,$jumlah,$usia,'$bayar')");
+    $conn->query("INSERT INTO penjualan(barang_id,jumlah,usia_pembeli,metode_bayar,nama_user)
+                  VALUES($barang_id,$jumlah,$usia,'$bayar', '$nama_user')");
 
    
     json(["status"=>true]);
@@ -161,7 +162,7 @@ if ($action === 'struk') {
     $sql = "SELECT 
                 p.id, p.jumlah, p.metode_bayar, p.tanggal,
                 b.nama_barang, b.harga,
-                (b.harga*p.jumlah) total
+                (b.harga*p.jumlah) total, p.nama_user
             FROM penjualan p
             JOIN barang b ON p.barang_id=b.id
             WHERE p.id=$id";
@@ -192,9 +193,9 @@ hr { border-top: 1px dashed black; }
 <body onload='window.print()'>
 
 <div class='center'>
-    <div class='big'>  METAMEDIA</div>
-    <div class='big'>💰UNIT BISNIS TOKO ANDA</div>
-    <div class='small'>Jl. Contoh No.123</div>
+    <div class='big'>💰UNIT BISNIS META</div>
+    <div class='big'>STRUK </div>
+    <div class='small'>Jl. Sudirman No.123, Padang</div>
 </div>
 
 <hr>
@@ -232,6 +233,7 @@ No Struk: {$d['id']}
 <hr>
 
 <div class='center small'>
+    Petugas: {$d['nama_user']} <br>
     Terima kasih 🙏<br>
     Barang tidak dapat dikembalikan
 </div>

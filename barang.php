@@ -7,7 +7,12 @@
 // Matakuliah Pemrogaraman Web
 // Dosen: Ir. Muhammad Amrin Lubis, M.Sc, email: mamrinlubis@metamedia.ac.id
 // Pendaftaran mahasiswa baru: https://pmb.metamedia.ac.id/beranda_pmb
-  -->
+  
+barang.php      → Tampilan
+barang_api.php  → Backend AJAX
+koneksi.php     → Koneksi Database
+
+-->
 
 <?php
 include 'koneksi.php';
