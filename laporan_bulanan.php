@@ -105,7 +105,7 @@ $totalOmzet = 0;
 
             <head>
                 <meta charset="UTF-8">
-                <title>Laporan Bulanan</title>
+                <title>Laporan Bulanan Penjualan</title>
                 <script src="https://cdn.tailwindcss.com"></script>
             </head>
 
@@ -116,7 +116,7 @@ $totalOmzet = 0;
                     <div class="flex justify-between mb-4">
 
                         <h1 class="text-2xl font-bold">
-                            📅 Laporan Bulanan
+                            📅 Laporan Bulanan Penjualan
                         </h1>
 
                         <a href="dashboard.php" class="bg-gray-500 text-white px-4 py-2 rounded">

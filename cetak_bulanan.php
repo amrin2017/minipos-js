@@ -83,7 +83,7 @@ $namaBulan = [
 
         <p>Telp. (0751) 123456</p>
 
-        <h2>LAPORAN PENJUALAN BULANAN</h2>
+        <h2>LAPORAN BULANAN PENJUALAN</h2>
 
         <p>
             Periode :
