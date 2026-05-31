@@ -55,6 +55,11 @@ D. cara install
 10. localhost/minipos-js
 
 E. screenshot
-![/image](/image/TampilanDepan.jpg)
-![/image](/image/FakturPembelian-2.jpg)
-![/image](/image/fakturPDF.jpg)
+![/image](/image/login.png)
+![/image](/image/dashboard.png)
+![/image](/image/transaksi_penjualan.png)
+![/image](/image/faktur_penjualan.png)
+![/image](/image/laporan_penjualan_harian.png)
+![/image](/image/laporan_penjualan_bulanan.png)
+![/image](/image/laporan_barang_terlaris.png)
+![/image](/image/laporan_bulanan_excel.png)
