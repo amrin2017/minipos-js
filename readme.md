@@ -58,6 +58,7 @@ D. CARA INSTALL
 E. SCREENSHOT
 ![/image](/image/login.png)
 ![/image](/image/dashboard.png)
+![/image](/image/laporan_barang.png)
 ![/image](/image/transaksi_penjualan.png)
 ![/image](/image/struk.png)
 ![/image](/image/laporan_penjualan_harian.png)
