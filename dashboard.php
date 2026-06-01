@@ -68,7 +68,7 @@ include 'auth.php';
                 <li>
                     <a href="grafik_barang_terlaris_pie.php">
 
-                        🏆 Grafik Barang Terlaris
+                        📊 Grafik Barang Terlaris
 
                     </a>
                 </li>
