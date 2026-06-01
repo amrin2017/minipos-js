@@ -4,16 +4,17 @@ Mini-POS adalah aplikasi penjualan berbasis web (PHP & JavaScript) untuk mengelo
 
 Selain itu, aplikasi Minipos-js ini juga menerapkan tata kelola transparansi dalam kegiatan penjualan barang, hal ini terlihat dari Struk dimana nama petugas ditampikan pada Struk seusai dengan user yang bertugas saat itu.
 
-KLASIFIKASI STACK
-Front End
-├── HTML
-├── Tailwind CSS
-├── JavaScript
-├── AJAX
-├── Chart.js
-└── User Interface
+KLASIFIKASI STACK <br>
 
-Back End
+Front End <br>
+├── HTML <br>
+├── Tailwind CSS <br>
+├── JavaScript <br>
+├── AJAX <br>
+├── Chart.js <br>
+└── User Interface <br>
+<br>
+Back End <br>
 ├── PHP
 ├── MySQL
 ├── Session
