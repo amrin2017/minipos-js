@@ -4,6 +4,25 @@ Mini-POS adalah aplikasi penjualan berbasis web (PHP & JavaScript) untuk mengelo
 
 Selain itu, aplikasi Minipos-js ini juga menerapkan tata kelola transparansi dalam kegiatan penjualan barang, hal ini terlihat dari Struk dimana nama petugas ditampikan pada Struk seusai dengan user yang bertugas saat itu.
 
+KLASIFIKASI STACK
+Front End
+├── HTML
+├── Tailwind CSS
+├── JavaScript
+├── AJAX
+├── Chart.js
+└── User Interface
+
+Back End
+├── PHP
+├── MySQL
+├── Session
+├── CRUD
+├── API
+├── Login
+├── Export Excel
+└── Business Logic
+
 B. PENGEMBANGAN FITUR: <br>
 Aplikasi minipos-js menggunakan code: PHP dan JavaScript, database MySQL dengan
 menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk kerja Aplikasi Minipos-js digunakan JavaScript digunakan sebagai bahasa pemrograman sisi klien, AJAX digunakan untuk komunikasi asynchronous antara client dan server, sedangkan JSON digunakan sebagai format pertukaran data.
