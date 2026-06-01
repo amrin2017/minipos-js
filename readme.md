@@ -27,7 +27,7 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
    5.2.2. Print PDF <br>
    5.2.3. Export Laporan ke Excel <br>
    5.3 Laporan Barang Terlaris (fast moving) <br>
-6. Grafik Penjualan <br>
+6. Grafik Penjualan Barang Terlaris<br>
 7. Logout. Keluar dari Sistem <br>
 
 C. TEKNOLOGI: <br>
@@ -71,4 +71,5 @@ E. SCREENSHOT <br>
 ![/image](/image/laporan_bulanan_penjualan.png)
 ![/image](/image/laporan_bulanan_print.png)
 ![/image](/image/laporan_barang_terlaris.png)
+![/image](/image/grafik_barang_terlaris.png)
 ![/image](/image/laporan_bulanan_excel.png)

@@ -66,6 +66,13 @@ include 'auth.php';
                     </a>
                 </li>
                 <li>
+                    <a href="grafik_barang_terlaris_pie.php">
+
+                        🏆 Grafik Barang Terlaris
+
+                    </a>
+                </li>
+                <li>
                     <a href="barang.php" class="block p-2 rounded hover:bg-blue-500">
                         Barang 📦
                     </a>

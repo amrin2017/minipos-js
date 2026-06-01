@@ -19,7 +19,7 @@ include 'auth.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard Mini-POS</title>
+    <title> Mini-POS</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -63,6 +63,13 @@ include 'auth.php';
                 <li>
                     <a href="laporan_barang_terlaris.php" class="block p-2 rounded hover:bg-blue-500">
                         🏆 Barang Terlaris
+                    </a>
+                </li>
+                <li>
+                    <a href="grafik_barang_terlaris_pie.php">
+
+                        🏆 Grafik Barang Terlaris
+
                     </a>
                 </li>
                 <li>
