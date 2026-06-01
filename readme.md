@@ -15,15 +15,15 @@ Front End <br>
 └── User Interface <br>
 <br>
 Back End <br>
-├── PHP
-├── MySQL
-├── Session
-├── CRUD
-├── API
-├── Login
-├── Export Excel
-└── Business Logic
-
+├── PHP <br>
+├── MySQL <br>
+├── Session <br>
+├── CRUD <br>
+├── API <br>
+├── Login <br>
+├── Export Excel <br>
+└── Business Logic <br>
+<br>
 B. PENGEMBANGAN FITUR: <br>
 Aplikasi minipos-js menggunakan code: PHP dan JavaScript, database MySQL dengan
 menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk kerja Aplikasi Minipos-js digunakan JavaScript digunakan sebagai bahasa pemrograman sisi klien, AJAX digunakan untuk komunikasi asynchronous antara client dan server, sedangkan JSON digunakan sebagai format pertukaran data.
