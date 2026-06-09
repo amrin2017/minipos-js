@@ -30,7 +30,7 @@ menggunakan Local Development Environment yaitu Laragon. Untuk mendukung unjuk k
 <br>
 
 1. Login. Masuk ke Sistem.
-   Untuk menjalan aplikasi ini, diperlukan user baru. silahkan run program: buat_user.php. Secara default nama user: Meta dan password: metamedia
+   Untuk menjalan aplikasi ini, diperlukan user baru. silahkan <b> run program: buat_user.php </b>. Secara default nama user: Meta dan password: metamedia
 2. Barang. Pengelolaan data barang meliputi kegiatan: CRUD + Search
 3. Dashboard. Menampilkan informasi: Total Barang Terjual, Total Transaksi dan Total Penjualan
 4. Transaksi Penjualan Barang menggunakan JavaScript
