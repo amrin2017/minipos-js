@@ -1,4 +1,4 @@
-A. NAMA PROJECT: Minipos-js <br>
+A. NAMA PROJECT: <a href="http://localhost/minipos-js/login.php">Minipos-js </a><br>
 Deskripsi: <br>
 Mini-POS adalah aplikasi penjualan berbasis web (PHP & JavaScript) untuk mengelola stok barang, transaksi, dan laporan secara cepat serta akurat. Fitur utama meliputi login, dashboard, barang, transaksi penjualan (aplikasi memotong stock barang setiap kali ada penjualan), cetak struk, laporan harian, bulanan, dan barang terlaris. Laporan bisa di print dan di export ke Excel. Sistem membantu meningkatkan efisiensi operasional dan mendukung keputusan manajemen.
 
