@@ -26,7 +26,7 @@
         <div class="bg-white p-8 rounded shadow w-96">
 
             <h1 class="text-2xl font-bold mb-6 text-center">
-                🔐 Login Mini POS
+                🔐 Login Mini POS....
             </h1>
 
             <?php if(isset($_GET['error'])): ?>

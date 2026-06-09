@@ -21,55 +21,54 @@ header(
 
 if($action=='read'){
 
-$search =
-$_GET['search'] ?? '';
+    $search =
+    $_GET['search'] ?? '';
 
-$sql = "
-SELECT *
-FROM barang
-WHERE nama_barang
-LIKE '%$search%'
-ORDER BY id DESC
-";
+    $sql = "
+        SELECT *
+        FROM barang
+        WHERE nama_barang
+        LIKE '%$search%'
+        ORDER BY id DESC
+        ";
 
-$result =
-$conn->query($sql);
+    $result =    $conn->query($sql);
 
-$data=[];
+    $data=[];
 
-while(
-$row =
-$result->fetch_assoc()
-){
+    while(
+        $row =
+        $result->fetch_assoc()
+    ){
 
-$data[]=$row;
+    $data[]=$row;
 
-}
+    }
 
-echo json_encode($data);
-exit;
+    echo json_encode($data);
+    exit;
 }
 
 /* ================= CREATE ================= */
 
 if($action=='create'){
 
-$nama =
-trim($_POST['nama_barang']);
+    $nama =
+    trim($_POST['nama_barang']);
 
-$stock =
-(int)$_POST['stock'];
+    $stock =
+    (int)$_POST['stock'];
 
-$harga =
-(int)$_POST['harga'];
+    $harga =
+    (int)$_POST['harga'];
 
-if($nama==''){
+    if($nama==''){
 
-echo json_encode([
-"message"=>"Nama barang wajib diisi"
-]);
+    echo json_encode([
+    "message"=>"Nama barang wajib diisi"
+    ]);
 
-exit;
+    exit;
 
 }
 
@@ -143,14 +142,9 @@ exit;
 
 if($action=='delete'){
 
-$id =
-(int)$_POST['id'];
+$id = (int)$_POST['id'];
 
-$stmt =
-$conn->prepare(
-"DELETE FROM barang
-WHERE id=?"
-);
+$stmt = $conn->prepare("DELETE FROM barang WHERE id=?");
 
 $stmt->bind_param(
 "i",

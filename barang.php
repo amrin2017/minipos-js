@@ -169,8 +169,7 @@ include 'auth.php';
 
     function loadData() {
 
-        let search =
-            document.getElementById("search").value;
+        let search =  document.getElementById("search").value;
 
         fetch(
                 "barang_api.php?action=read&search=" + search
@@ -188,29 +187,29 @@ include 'auth.php';
                     html += `
 <tr>
 
-<td class="border p-2">${no++}</td>
+    <td class="border p-2">${no++}</td>
 
-<td class="border p-2">
-${row.nama_barang}
-</td>
+    <td class="border p-2">
+    ${row.nama_barang}
+    </td>
 
-<td class="border p-2 text-center">
-${row.stock}
-</td>
+    <td class="border p-2 text-center">
+    ${row.stock}
+    </td>
 
-<td class="border p-2 text-right">
-Rp ${rupiah(row.harga)}
-</td>
+    <td class="border p-2 text-right">
+    Rp ${rupiah(row.harga)}
+    </td>
 
-<td class="border p-2">
+    <td class="border p-2">
 
-<button
-onclick="edit(
-${row.id},
-'${row.nama_barang}',
-${row.stock},
-${row.harga}
-)"
+    <button
+    onclick="edit(
+    ${row.id},
+    '${row.nama_barang}',
+    ${row.stock},
+    ${row.harga}
+    )"
 class="bg-yellow-500 text-white px-2">
 
 Edit
@@ -307,7 +306,7 @@ Hapus
 
     function hapus(id) {
 
-        if (!confirm("Hapus data ?"))
+        if (!confirm("Yakin Hapus data ?"))
             return;
 
         let fd = new FormData();
